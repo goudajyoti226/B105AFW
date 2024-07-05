@@ -15,3 +15,5 @@ class Excel:
            value=""
 
       return value
+
+print('*'*10)
