@@ -54,7 +54,7 @@ class BaseClass:
         print("Maximize the browser")
         self.driver.maximize_window()
         time.sleep(1)
-        print('*' * 10)
+        print('*' * 11)
 
 
 
