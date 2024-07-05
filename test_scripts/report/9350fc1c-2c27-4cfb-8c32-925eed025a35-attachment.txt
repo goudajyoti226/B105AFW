@@ -1,0 +1,9 @@
+path of generic package is: C:\Users\Dell\PycharmProjects\B105AFW\generic
+
+Open The Browser in Local System: chrome
+Enter the URL: https://pos.aksharatraining.in/pos/public/
+Set ITO: 9
+Set ETO: 6
+Maximize the browser
+Home Page is displayed
+Close the browser
