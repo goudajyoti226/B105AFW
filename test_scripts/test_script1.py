@@ -3,6 +3,7 @@ from generic.utility import Excel
 class Test_Case1(BaseClass):
 
     def test_script1(self):
-        data= Excel.get_data(self.XLPATH,'tc1',2,3)
+        data= Excel.get_data(self.XLPATH,'tc1',2,1)
         print("Excel data",data)
         print(self.driver.title)
+        print("end of the execution")

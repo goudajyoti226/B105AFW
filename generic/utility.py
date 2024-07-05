@@ -9,6 +9,7 @@ class Excel:
            if value==None:
                print("Cell value is NONE")
                value=""
+
       except Exception as e:
            print(str(e))
            value=""
