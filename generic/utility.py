@@ -16,4 +16,3 @@ class Excel:
 
       return value
 
-print('*'*11)
