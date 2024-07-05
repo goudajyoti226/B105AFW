@@ -51,7 +51,7 @@ class BaseClass:
         print("Set ETO:",eto)
         self.wait=WebDriverWait(self.driver,eto)
 
-        print("Maximize the browser")
+        print("Maximize the browser1")
         self.driver.maximize_window()
         time.sleep(1)
 
