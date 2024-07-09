@@ -1,9 +1,9 @@
 from generic.base_class import BaseClass
 from page.login_page import LoginPage
-
+import pytest
 
 class Test_InvalidLogin(BaseClass):
-
+    @pytest.mark.run(order=2)
     def test_invalid_login(self):
         # 1. enter invalid username
         login_page = LoginPage(self.driver)
